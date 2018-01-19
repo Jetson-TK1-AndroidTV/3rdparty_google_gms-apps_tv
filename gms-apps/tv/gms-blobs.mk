@@ -13,4 +13,6 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-      3rdparty/google/gms-apps/tv/misc/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml
+      3rdparty/google/gms-apps/tv/misc/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+      3rdparty/google/gms-apps/tv/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
+      3rdparty/google/gms-apps/tv/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml

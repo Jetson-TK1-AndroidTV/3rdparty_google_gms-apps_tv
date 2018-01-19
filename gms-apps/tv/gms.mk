@@ -1,7 +1,6 @@
 $(call inherit-product, 3rdparty/google/gms-apps/tv/gms-blobs.mk)
 
 PRODUCT_PACKAGES += \
-    AndroidMediaShell \
     AtvRemoteService \
     Backdrop \
     ConfigUpdater \
@@ -22,6 +21,8 @@ PRODUCT_PACKAGES += \
     Tubesky \
     PlayGames \
     PrebuiltGmsCorePano \
+    SetupWraith \
+    SecondScreenSetup \
     talkback \
     TV \
     VideosPano \

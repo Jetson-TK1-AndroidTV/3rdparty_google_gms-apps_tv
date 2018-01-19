@@ -23,7 +23,7 @@ MAKEFILE=Android.mk
 (cat << EOF) > $MAKEFILE
 LOCAL_PATH := \$(call my-dir)
 
-ifeq (\$(TARGET_DEVICE),bueller)
+ifeq (\$(TARGET_DEVICE),foster)
 
 EOF
 
