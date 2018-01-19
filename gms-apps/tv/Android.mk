@@ -264,6 +264,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
+LOCAL_PREBUILT_JNI_LIBS := lib/libtunertvinput_jni.so lib/libswresample.so lib/libminijail_jni.so lib/libffmpeg.so lib/libavutil.so lib/libavresample.so lib/libavcodec.so
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 

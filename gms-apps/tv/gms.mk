@@ -25,8 +25,10 @@ PRODUCT_PACKAGES += \
     SecondScreenSetup \
     talkback \
     TV \
+    TVRecommendations \
     VideosPano \
-    YouTubeLeanback
+    YouTubeLeanback \
+    WebViewGoogle
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
